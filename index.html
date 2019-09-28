@@ -5,52 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
   </head>
   <body>
-    <div>
-      <div class="login-page">
-        <header class="header">
-          <div class="logo-wrap">
-            <img src="./images/logo.png" alt="" />
-          </div>
-          <nav class="nav">
-            <a href="#">Features</a>
-            <a href="#">About</a>
-            <a href="#">Pricing</a>
-            <a href="#">Reviews</a>
-            <a href="#">Contact</a>
-          </nav>
-        </header>
-        <main>
-          <div class="box">
-            <img src="./images/Logo@1X.png" alt="" width="175px" height="60px">
-            
-            <p class="text2">MODERN AXURE TEMPLATE <br>
-               FOR BEAUTIFUL PROTOTYPES</p>
-
-               <img src="./images/line1.png" alt="">
-
-               <p class="text3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br>
-                  euismod bibendum laoreet. Proin gravida dolor sit amet lacus <br>
-                  accumsan et viverra justo commodo.</p>
-                  <a href="#" class="buttonns">Download</a>
-              
-          </div>
-          
-          
-        </main>
-        <div class="under">
-         <div class="socialmedia">
-          Social Media
-          <p class="text4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> 
-            Aenean euismod bibendum laoreet.</p>
-          
+    <div class="login-page">
+      <header class="header">
+        <div class="logo-wrap">
+          <img src="./images/logo.png" alt="" />
         </div>
-        
-        
-      </div>
-      </div>
+        <nav class="nav">
+          <a class="nav__item" href="#">Features</a>
+          <a class="nav__item" href="#">About</a>
+          <a class="nav__item" href="#">Pricing</a>
+          <a class="nav__item" href="#">Reviews</a>
+          <a class="nav__item" href="#">Contact</a>
+        </nav>
+      </header>
+      <main class="login-page__main">
+        <div class="login-page__main-wrapper">
+          <div class="login-about-us">
+            <div class="logo-name">
+              <img src="./images/login-logo.png" alt="" />
+            </div>
+            <p class="project-tagline">
+              modern axure template for beautiful prototypes
+            </p>
+            <span class="login-divider"></span>
+            <p class="project-info">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+              accumsan et viverra justo commodo.
+            </p>
+            <button class="btn-download">Download</button>
+          </div>
+          <div class="login-form">
+            <p class="login-form-header">
+              try your <span>free</span> trial today
+            </p>
+            <div class="login-form-input">
+              <input type="text" placeholder="Name" />
+            </div>
+            <div class="login-form-input">
+              <input type="text" placeholder="Email" />
+            </div>
+            <div class="login-form-input">
+              <input type="text" placeholder="Password" />
+            </div>
+            <button class="login-form-submit">Get Started</button>
+          </div>
+        </div>
+      </main>
     </div>
   </body>
 </html>
