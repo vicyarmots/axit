@@ -283,8 +283,10 @@
 
 .heading {
   font-family: "OpenSans-Semibold";
+  
+  font-weight: 900;
   font-size: 20px;
-  font-weight: none;
+  color: black;
 }
 
 .heading-desc-1,
