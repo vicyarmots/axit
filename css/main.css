@@ -232,7 +232,9 @@
   color: white;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  
+  display: inline-flex;
+  align-items: center;
+  padding-left: 46px;
 }
 
 .tab-2 {
@@ -240,6 +242,9 @@
   background: #ff8b38;
   margin-bottom: 1px;
   color: white;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 46px;
 }
 
 .tab-3 {
@@ -249,24 +254,23 @@
   color: white;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 46px;
 }
 
 .tab--1 {
   font-family: "OpenSans-Semibold";
   text-transform: uppercase;
-  
-  
-  
+  color: white;
 }
 .tab--2 {
   font-family: "OpenSans-Semibold";
   text-transform: uppercase;
-  
 }
 .tab--3 {
   font-family: "OpenSans-Semibold";
   text-transform: uppercase;
-  
 }
 
 .features-info {
@@ -280,7 +284,7 @@
 .heading {
   font-family: "OpenSans-Semibold";
   font-size: 20px;
-  
+
   font-weight: none;
 }
 
