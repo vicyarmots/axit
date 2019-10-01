@@ -20,7 +20,7 @@
 }
 
 .nav__item {
-  font-family: 'OpenSans-Semibold';
+  font-family: "OpenSans-Semibold";
   font-size: 14px;
   color: rgba(255, 255, 255, 255);
   text-decoration: none;
@@ -78,13 +78,13 @@
   text-transform: uppercase;
   font-size: 36px;
   color: white;
-  font-family: 'Raleway-Light';
+  font-family: "Raleway-Light";
 }
 
 .project-info {
   font-size: 16px;
   color: #ffffffa2;
-  font-family: 'Raleway-Light';
+  font-family: "Raleway-Light";
 }
 
 .btn-download {
@@ -93,7 +93,7 @@
   background: transparent;
   border: 2px solid white;
   color: white;
-  font-family: 'OpenSans-Semibold';
+  font-family: "OpenSans-Semibold";
   font-size: 15px;
 }
 
@@ -114,7 +114,7 @@
 .login-form-header {
   font-size: 20px;
   background-color: #f5f5f5;
-  font-family: 'OpenSans-Semibold';
+  font-family: "OpenSans-Semibold";
   text-transform: capitalize;
   text-align: center;
   line-height: 3;
@@ -155,7 +155,7 @@
   border-bottom-right-radius: 5px;
   background-color: #ff9b51;
   border: none;
-  font-family: 'OpenSans-Semibold';
+  font-family: "OpenSans-Semibold";
   color: white;
 }
 
@@ -166,6 +166,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   background: white;
+  box-shadow: rgba(156, 156, 156, 0.829);
 }
 
 .header-name {
@@ -174,8 +175,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .social-name {
@@ -186,33 +187,134 @@
 
 .info-header {
   font-size: 14px;
-  
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.info-header {
   color: rgba(134, 135, 139, 255);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .header-icons {
-  
   height: 50px;
   width: 630px;
-  background-image: url(..images/)
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  height: 520px;
+  align-items: center;
+  background: #f5f5f5;
+}
+
+.features-page-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  background: #f5f5f5;
+  width: 1070px;
+  height: 360px;
+}
+
+.features-tabs {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  height: 336px;
+  width: 132px;
+}
+
+.tab-1 {
+  height: 111px;
+  background: grey;
+  margin-bottom: 1px;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  
+}
+
+.tab-2 {
+  height: 111px;
+  background: #ff8b38;
+  margin-bottom: 1px;
+  color: white;
+}
+
+.tab-3 {
+  height: 111px;
+  background: #ff8b38;
+  margin-bottom: 1px;
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.tab--1 {
+  font-family: "OpenSans-Semibold";
+  text-transform: uppercase;
+  
+  
+  
+}
+.tab--2 {
+  font-family: "OpenSans-Semibold";
+  text-transform: uppercase;
+  
+}
+.tab--3 {
+  font-family: "OpenSans-Semibold";
+  text-transform: uppercase;
+  
+}
+
+.features-info {
+  flex-direction: column;
+  display: flex;
+  width: 400px;
+  height: 310px;
+  justify-content: space-between;
+}
+
+.heading {
+  font-family: "OpenSans-Semibold";
+  font-size: 20px;
+  
+  font-weight: none;
+}
+
+.heading-desc-1,
+.heading-desc-2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  color: rgba(134, 135, 139, 255);
+}
+
+.btn-download-2 {
+  text-transform: capitalize;
+  background: #ff8b38;
+  border: 1px solid #ff8b38;
+  color: white;
+  font-family: "OpenSans-Semibold";
+  font-size: 15px;
+  width: 121px;
+  height: 46px;
+  border-radius: 3px;
 }
 
 @media screen and (max-width: 768px) {
 }
 
 @font-face {
-  font-family: 'OpenSans-Semibold';
-  src: url('../fonts/openSansSemibold.ttf') format('truetype');
+  font-family: "OpenSans-Semibold";
+  src: url("../fonts/openSansSemibold.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Raleway-Light';
-  src: url('../fonts/Raleway-Light.ttf') format('truetype');
+  font-family: "Raleway-Light";
+  src: url("../fonts/Raleway-Light.ttf") format("truetype");
   font-weight: normal;
 }
