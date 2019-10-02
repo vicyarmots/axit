@@ -159,40 +159,36 @@
   color: white;
 }
 
-.social-media-header {
-  width: 1070px;
-  height: 105px;
+.social-media__header {
   display: flex;
-  background: white;
-  box-shadow: rgba(156, 156, 156, 0.829);
+  justify-content: center;
 }
 
-.header-name {
-  height: 100px;
-  width: 300px;
+.social-media__info {
+  background: white;
+  width: 1070px;
+  height: 110px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  flex-wrap: wrap;
 }
 
 .social-name {
-  font-weight: bolder;
+  font-family: "OpenSans-Bold";
   font-size: 20px;
   color: black;
+  text-transform: capitalize;
 }
 
 .info-header {
   font-size: 14px;
   color: rgba(134, 135, 139, 255);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 240px;
+  font-family: "OpenSans";
 }
 
 .header-icons {
-  height: 50px;
-  width: 630px;
 }
 
 .features {
@@ -226,7 +222,7 @@
 
 .tab-1 {
   height: 111px;
-  background: grey;
+  background: #ff8b38;
   margin-bottom: 1px;
   color: white;
   border-top-left-radius: 5px;
@@ -238,7 +234,7 @@
 
 .tab-2 {
   height: 111px;
-  background: #ff8b38;
+  background: #333333;
   margin-bottom: 1px;
   color: white;
   display: inline-flex;
@@ -248,7 +244,7 @@
 
 .tab-3 {
   height: 111px;
-  background: #ff8b38;
+  background: #333333;
   margin-bottom: 1px;
   color: white;
   border-bottom-left-radius: 5px;
@@ -261,15 +257,18 @@
 .tab--1 {
   font-family: "OpenSans-Semibold";
   text-transform: uppercase;
-  color: white;
+
+  font-size: 15px;
 }
 .tab--2 {
   font-family: "OpenSans-Semibold";
   text-transform: uppercase;
+  font-size: 15px;
 }
 .tab--3 {
   font-family: "OpenSans-Semibold";
   text-transform: uppercase;
+  font-size: 15px;
 }
 
 .features-info {
@@ -281,17 +280,15 @@
 }
 
 .heading {
-  font-family: "OpenSans-Semibold";
+  font-family: "OpenSans-Bold";
 
-  font-weight: 900;
   font-size: 20px;
   color: black;
 }
 
 .heading-desc-1,
 .heading-desc-2 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "OpenSans";
   font-size: 14px;
   color: rgba(134, 135, 139, 255);
 }
@@ -335,7 +332,7 @@
 }
 
 .sub-list__heading {
-  font-family: "OpenSans-Semibold";
+  font-family: "OpenSans-Bold";
   font-size: 20px;
   font-weight: bolder;
 }
@@ -346,17 +343,14 @@
 }
 
 .sub-list-desc {
+  font-family: "OpenSans";
   color: rgba(134, 135, 139, 255);
   font-size: 14px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .title-info__top,
 .title-info__bottom {
-  display: flex;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "OpenSans";
   color: #a9aaac;
 }
 
@@ -372,5 +366,28 @@
 @font-face {
   font-family: "Raleway-Light";
   src: url("../fonts/Raleway-Light.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-ExtraBold";
+  src: url("../fonts/OpenSans-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-SemiboldItalic";
+  src: url("../fonts/OpenSans-SemiboldItalic.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans.ttf") format("truetype");
   font-weight: normal;
 }
