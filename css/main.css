@@ -160,11 +160,9 @@
 }
 
 .social-media-header {
-  width: auto;
+  width: 1070px;
   height: 105px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
   background: white;
   box-shadow: rgba(156, 156, 156, 0.829);
 }
@@ -203,7 +201,6 @@
   height: 520px;
   align-items: center;
   background: #f5f5f5;
-  
 }
 
 .features-page-wrapper {
@@ -285,7 +282,7 @@
 
 .heading {
   font-family: "OpenSans-Semibold";
-  
+
   font-weight: 900;
   font-size: 20px;
   color: black;
@@ -309,6 +306,59 @@
   width: 121px;
   height: 46px;
   border-radius: 3px;
+}
+
+.sub-list-section__main {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  align-items: center;
+}
+
+.sub-list-section__page {
+  height: 400px;
+  width: 1150px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.sub-list__info {
+  background: white;
+  height: 360px;
+  width: 470px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.sub-list__heading {
+  font-family: "OpenSans-Semibold";
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.sub-list__login-divider {
+  width: 74px;
+  border-bottom: 2px solid #ff8b38;
+}
+
+.sub-list-desc {
+  color: rgba(134, 135, 139, 255);
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.title-info__top,
+.title-info__bottom {
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #a9aaac;
 }
 
 @media screen and (max-width: 768px) {
