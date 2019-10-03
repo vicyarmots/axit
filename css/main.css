@@ -456,6 +456,7 @@
   font-size: 14px;
   font-family: "OpenSans";
   align-self: center;
+  color: rgba(134, 135, 139, 255); 
 }
 
 .why-this-is-awesome__page {
@@ -498,7 +499,7 @@
 .easy-to-customize__info {
   font-family: "OpenSans";
   font-size: 14px;
-  width: 330px;
+  width: 333px;
   text-align: center;
   color: rgba(134, 135, 139, 255);
 }
