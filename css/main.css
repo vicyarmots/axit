@@ -430,7 +430,6 @@
   height: 210px;
   justify-content: center;
   align-items: flex-end;
- 
 }
 
 .why_this-is-awesome__header-page {
@@ -463,19 +462,20 @@
   display: flex;
   height: 240px;
   width: auto;
-  
+
   justify-content: center;
 }
 
 .why-this-is-awesome__page-info {
-  
   width: 1070px;
   height: 240px;
   justify-content: space-between;
   display: flex;
 }
 
-.thoughtful-design , .easy-to-customize , .well-crafted {
+.thoughtful-design,
+.easy-to-customize,
+.well-crafted {
   background: white;
   display: flex;
   width: 354px;
@@ -485,13 +485,17 @@
   justify-content: space-evenly;
 }
 
-.thoughtful-design__heading ,.well-crafted__heading ,.easy-to-customize__heading {
+.thoughtful-design__heading,
+.well-crafted__heading,
+.easy-to-customize__heading {
   text-transform: capitalize;
   font-family: "OpenSans-Bold";
   font-size: 20px;
 }
 
-.thoughtful-design__info ,.well-crafted__info ,.easy-to-customize__info {
+.thoughtful-design__info,
+.well-crafted__info,
+.easy-to-customize__info {
   font-family: "OpenSans";
   font-size: 14px;
   width: 330px;
