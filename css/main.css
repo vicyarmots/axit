@@ -559,30 +559,34 @@
   align-items: flex-end;
 }
 
-.basic-price{
+.basic-price {
   background: #333333;
   width: 330px;
   height: 450px;
 }
 
-.basic-price__heading{
+.basic-price__heading,
+.professional-price__heading,
+.enterprice-price__heading {
   display: flex;
   align-items: center;
   background: #333333;
   width: auto;
   height: 60px;
   justify-content: center;
-
 }
 
-.basic-price__heading-name {
+.basic-price__heading-name,
+.professional-price__heading-name,
+.enterprice-price__heading-name {
   text-transform: capitalize;
   font-family: "OpenSans-Bold";
   font-size: 20px;
   color: white;
 }
 
-.basic-price__info {
+.basic-price__info,
+.enterprice-price__info {
   width: auto;
   height: 156px;
   background: #333333;
@@ -591,41 +595,71 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  position: relative;
- 
 }
 
-.basic__price{
-  text-transform: uppercase;
-  font-family: "Raleway-Light";
-  font-size: 35px;
+.professional-price__info {
+  width: auto;
+  height: 185px;
+  background: #333333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 
-.basic-price__button {
+.prof-price__desc {
+  font-family: "OpenSans-Semibold";
+  font-style: italic;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #d6d6d6;
+}
+
+.prof-price,
+.basic-pricee,
+.enter-price {
+  color: #f5f5f5;
+  font-size: 36px;
+  font-family: "OpenSans-Bold";
+}
+
+.basic-price__button,
+.enterprice-price__button {
   text-transform: capitalize;
   font-family: "OpenSans-SemiBold";
   color: rgba(255, 255, 255, 255);
   width: 330px;
   height: 60px;
   background: #333333;
-  border: 1px solid #ff8b38;
-
-
+  font-style: italic;
+  color: #d6d6d6;
+  text-decoration: none;
+  border-bottom: 1px solid #ff8b38 ;
 }
 
-.professionsl-price {
+.professional-price__button {
+  text-transform: capitalize;
+  font-family: "OpenSans-SemiBold";
+  color: rgba(255, 255, 255, 255);
+  width: 330px;
+  height: 40px;
+  background: #ff8b38;
+  border: 1px solid #ff8b38;
+  color: white;
+}
+
+.professional-price {
   width: 330px;
   height: 480px;
-  background: greenyellow;
+  background: black;
 }
 
-.enterprice-price{
-  background: red;
+.enterprice-price {
+  background: #333333;
   width: 330px;
   height: 450px;
 }
-
-
 
 . @media screen and (max-width: 768px) {
 }
