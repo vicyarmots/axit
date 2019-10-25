@@ -708,7 +708,7 @@
 
 .customers-reviews__main-page {
   display: flex;
-  
+
   height: 390px;
   width: auto;
   align-items: center;
@@ -791,6 +791,57 @@
   color: rgba(134, 135, 139, 255);
   margin-top: 10px;
   margin-left: 15px;
+}
+
+.stylish-design__page {
+  display: flex;
+  width: auto;
+  height: 320px;
+  background-image: url("../images/stylish-design__img.png");
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.stylish-design__content {
+  display: flex;
+  height: 185px;
+  width: 735px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stylish-design__heading {
+  font-size: 36px;
+  font-family: "Raleway-Light";
+  color: rgba(255, 255, 255, 255);
+  text-transform: uppercase;
+}
+
+.stylish-design__divider {
+  width: 74px;
+  border-bottom: 2px solid white;
+}
+
+.stylish-design__desc{
+  font-size: 16px;
+  font-family: "Raleway-Regular";
+  color: rgba(255, 255, 255, 255);
+  text-align: center;
+
+  
+
+}
+
+.stylish-design__button {
+  width: 135px;
+height: 42px;
+background: transparent;
+border: 2px solid white;
+color: white;
+font-family: "OpenSans-Semibold";
+font-size: 15px;
 }
 
 . @media screen and (max-width: 768px) {
