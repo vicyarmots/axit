@@ -635,7 +635,7 @@
   font-style: italic;
   color: #d6d6d6;
   text-decoration: none;
-  border-bottom: 1px solid #ff8b38 ;
+  border-bottom: 1px solid #ff8b38;
 }
 
 .professional-price__button {
@@ -659,6 +659,138 @@
   background: #333333;
   width: 330px;
   height: 450px;
+}
+
+.customers-reviews__page {
+  display: flex;
+  width: auto;
+  height: 590px;
+  flex-direction: column;
+}
+
+.customers-reviews__heading-page {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: 200px;
+
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.customers-reviews__heading-content {
+  display: flex;
+  width: 645px;
+  height: 115px;
+  background: white;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.customers__heading-title {
+  color: rgba(33, 33, 33, 255);
+  font-size: 36px;
+  font-family: "Raleway-Light";
+  text-transform: uppercase;
+}
+
+.customers__heading-divider {
+  width: 74px;
+  border-bottom: 2px solid #ff8b38;
+}
+
+.customers__heading-desc {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgba(134, 135, 139, 255);
+}
+
+.customers-reviews__main-page {
+  display: flex;
+  
+  height: 390px;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.customers-reviews__main-content {
+  display: flex;
+  width: 1100px;
+  height: 230px;
+
+  justify-content: space-between;
+}
+
+.customers-reviews__jeremy-profile,
+.customers-reviews__john-profile,
+.customers-reviews__susan-profile {
+  display: flex;
+  background: white;
+  width: 275px;
+  height: 230px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.customers-reviews__jeremy-review,
+.customers-reviews__john-review,
+.customers-reviews__susan-review {
+  background-image: url(../images/background-image-for-text.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 275px;
+  height: 147px;
+}
+
+.customers-reviews__jeremy-text,
+.customers-reviews__john-text,
+.customers-reviews__susan-text {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgba(134, 135, 139, 255);
+  font-style: italic;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.customers-reviews__jeremy-icon,
+.customers-reviews__john-icon,
+.customers-reviews__susan-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.customers-reviews__jeremy,
+.customers-reviews__john,
+.customers-reviews__susan {
+  flex-direction: column;
+  display: flex;
+}
+
+.customers__jeremy-name,
+.customers__john-name,
+.customers__susan-name {
+  font-size: 20px;
+  font-family: "OpenSans-Bold";
+  color: rgba(51, 51, 51, 255);
+  text-transform: capitalize;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.customers__jeremy-cfl,
+.customers__john-cfl,
+.customers__susan-cfl {
+  text-transform: capitalize;
+  font-family: "OpenSans";
+  font-size: 14px;
+  color: rgba(134, 135, 139, 255);
+  margin-top: 10px;
+  margin-left: 15px;
 }
 
 . @media screen and (max-width: 768px) {
