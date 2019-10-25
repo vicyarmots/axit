@@ -841,6 +841,54 @@
   font-size: 15px;
 }
 
+.contacts_page{
+  display: flex;
+  width: auto;
+  height: 615px;
+  
+   
+}
+
+.contacts-page__heading-page{
+  display: flex;
+  width: 1400px;
+  height: 200px;
+  
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.contacts-page__heading{
+  display: flex;
+  width: 360px;
+  height: 110px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.contacts-page__title{
+  text-transform: uppercase;
+  font-size: 36px;
+  font-family: "Raleway-Light";
+  color: rgba(33, 33, 33, 255);
+
+}
+
+.contacts-divider{
+  width: 74px;
+  border-bottom: 2px solid #ff8b38;
+}
+
+.contacts-desc{
+  font-family: "OpenSans";
+  font-size: 14px;
+  color: rgba(134, 135, 139, 255);
+  text-align: center;
+}
+
+
 . @media screen and (max-width: 768px) {
 }
 
