@@ -824,24 +824,21 @@
   border-bottom: 2px solid white;
 }
 
-.stylish-design__desc{
+.stylish-design__desc {
   font-size: 16px;
   font-family: "Raleway-Regular";
   color: rgba(255, 255, 255, 255);
   text-align: center;
-
-  
-
 }
 
 .stylish-design__button {
   width: 135px;
-height: 42px;
-background: transparent;
-border: 2px solid white;
-color: white;
-font-family: "OpenSans-Semibold";
-font-size: 15px;
+  height: 42px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  font-family: "OpenSans-Semibold";
+  font-size: 15px;
 }
 
 . @media screen and (max-width: 768px) {
