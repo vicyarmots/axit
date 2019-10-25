@@ -20,7 +20,7 @@
 }
 
 .nav__item {
-  font-family: "OpenSans-Semibold";
+  font-family: 'OpenSans-Semibold';
   font-size: 14px;
   color: rgba(255, 255, 255, 255);
   text-decoration: none;
@@ -78,13 +78,13 @@
   text-transform: uppercase;
   font-size: 36px;
   color: white;
-  font-family: "Raleway-Light";
+  font-family: 'Raleway-Light';
 }
 
 .project-info {
   font-size: 16px;
   color: #ffffffa2;
-  font-family: "Raleway-Light";
+  font-family: 'Raleway-Light';
 }
 
 .btn-download {
@@ -93,7 +93,7 @@
   background: transparent;
   border: 2px solid white;
   color: white;
-  font-family: "OpenSans-Semibold";
+  font-family: 'OpenSans-Semibold';
   font-size: 15px;
 }
 
@@ -114,7 +114,7 @@
 .login-form-header {
   font-size: 20px;
   background-color: #f5f5f5;
-  font-family: "OpenSans-Semibold";
+  font-family: 'OpenSans-Semibold';
   text-transform: capitalize;
   text-align: center;
   line-height: 3;
@@ -155,13 +155,15 @@
   border-bottom-right-radius: 5px;
   background-color: #ff9b51;
   border: none;
-  font-family: "OpenSans-Semibold";
+  font-family: 'OpenSans-Semibold';
   color: white;
 }
 
 .social-media__header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+
+  align-items: center;
 }
 
 .social-media__info {
@@ -175,7 +177,7 @@
 }
 
 .social-name {
-  font-family: "OpenSans-Bold";
+  font-family: 'OpenSans-Bold';
   font-size: 20px;
   color: black;
   text-transform: capitalize;
@@ -185,10 +187,29 @@
   font-size: 14px;
   color: rgba(134, 135, 139, 255);
   width: 380px;
-  font-family: "OpenSans";
+  font-family: 'OpenSans';
 }
 
-.header-icons {
+.social-meadia__icons {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  width: 634px;
+  height: 46px;
+}
+
+.social-meadia__icons li {
+  background-image: url(../images/social-icons.png);
+  height: inherit;
+  width: 46px;
+}
+
+.facebook-icon {
+  background-position: 0 0;
+}
+
+.twitter-icon {
+  background-position: -88px 0;
 }
 
 .features {
@@ -211,64 +232,38 @@
 }
 
 .features-tabs {
-  background-color: white;
   display: flex;
   flex-direction: column;
   text-align: center;
-
   height: 336px;
   width: 132px;
 }
 
-.tab-1 {
+.features-tabs__tab {
   height: 111px;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 46px;
+  border-bottom: 1px solid #f5f5f5;
+  font-family: 'OpenSans-Semibold';
+  text-transform: uppercase;
+  font-size: 15px;
+  background: #333333;
+}
+
+.is-current-tab {
   background: #ff8b38;
-  margin-bottom: 1px;
-  color: white;
-  border-top-left-radius: 5px;
+}
+
+.features-tabs__tab:first-child {
   border-top-right-radius: 5px;
-  display: inline-flex;
-  align-items: center;
-  padding-left: 46px;
+  border-top-left-radius: 5px;
 }
 
-.tab-2 {
-  height: 111px;
-  background: #333333;
-  margin-bottom: 1px;
-  color: white;
-  display: inline-flex;
-  align-items: center;
-  padding-left: 46px;
-}
-
-.tab-3 {
-  height: 111px;
-  background: #333333;
-  margin-bottom: 1px;
-  color: white;
-  border-bottom-left-radius: 5px;
+.features-tabs__tab:last-child {
   border-bottom-right-radius: 5px;
-  display: inline-flex;
-  align-items: center;
-  padding-left: 46px;
-}
-
-.tab--1 {
-  font-family: "OpenSans-Semibold";
-  text-transform: uppercase;
-
-  font-size: 15px;
-}
-.tab--2 {
-  font-family: "OpenSans-Semibold";
-  text-transform: uppercase;
-  font-size: 15px;
-}
-.tab--3 {
-  font-family: "OpenSans-Semibold";
-  text-transform: uppercase;
-  font-size: 15px;
+  border-bottom-left-radius: 5px;
 }
 
 .features-info {
@@ -280,7 +275,7 @@
 }
 
 .heading {
-  font-family: "OpenSans-Bold";
+  font-family: 'OpenSans-Bold';
 
   font-size: 20px;
   color: black;
@@ -288,7 +283,7 @@
 
 .heading-desc-1,
 .heading-desc-2 {
-  font-family: "OpenSans";
+  font-family: 'OpenSans';
   font-size: 14px;
   color: rgba(134, 135, 139, 255);
 }
@@ -298,7 +293,7 @@
   background: #ff8b38;
   border: 1px solid #ff8b38;
   color: white;
-  font-family: "OpenSans-Semibold";
+  font-family: 'OpenSans-Semibold';
   font-size: 15px;
   width: 121px;
   height: 46px;
@@ -332,7 +327,7 @@
 }
 
 .sub-list__heading {
-  font-family: "OpenSans-Bold";
+  font-family: 'OpenSans-Bold';
   font-size: 20px;
   font-weight: bolder;
 }
@@ -343,7 +338,7 @@
 }
 
 .sub-list-desc {
-  font-family: "OpenSans";
+  font-family: 'OpenSans';
   color: rgba(134, 135, 139, 255);
   font-size: 14px;
 }
@@ -367,13 +362,13 @@
 .title-info__heading-bottom {
   text-transform: capitalize;
   font-size: 14px;
-  font-family: "OpenSans-Semibold";
+  font-family: 'OpenSans-Semibold';
 }
 
 .title-info_heading-desc-top,
 .title-info_heading-desc-bottom {
   font-size: 14px;
-  font-family: "OpenSans";
+  font-family: 'OpenSans';
   color: rgba(134, 135, 139, 255);
 }
 
@@ -405,7 +400,7 @@
 .standart-picture-section__heading {
   font-size: 20px;
   color: black;
-  font-family: "OpenSans-Bold";
+  font-family: 'OpenSans-Bold';
   text-transform: capitalize;
 }
 
@@ -415,7 +410,7 @@
 }
 
 .standart-picture-section__info {
-  font-family: "OpenSans";
+  font-family: 'OpenSans';
   font-size: 14px;
   color: #8e8f93;
 }
@@ -442,7 +437,7 @@
 
 .why-this-is-awesome__heading {
   font-size: 36px;
-  font-family: "Raleway-Regular";
+  font-family: 'Raleway-Regular';
   text-transform: uppercase;
 }
 
@@ -454,7 +449,7 @@
 
 .why-this-is-awesome__heading-info {
   font-size: 14px;
-  font-family: "OpenSans";
+  font-family: 'OpenSans';
   align-self: center;
   color: rgba(134, 135, 139, 255);
 }
@@ -490,14 +485,14 @@
 .well-crafted__heading,
 .easy-to-customize__heading {
   text-transform: capitalize;
-  font-family: "OpenSans-Bold";
+  font-family: 'OpenSans-Bold';
   font-size: 20px;
 }
 
 .thoughtful-design__info,
 .well-crafted__info,
 .easy-to-customize__info {
-  font-family: "OpenSans";
+  font-family: 'OpenSans';
   font-size: 14px;
   width: 333px;
   text-align: center;
@@ -525,7 +520,7 @@
 
 .pricing-options__title-info {
   text-transform: uppercase;
-  font-family: "Raleway-Light";
+  font-family: 'Raleway-Light';
   font-size: 36px;
 }
 
@@ -535,7 +530,7 @@
 }
 
 .pricing-options__title-desc {
-  font-family: "OpenSans";
+  font-family: 'OpenSans';
   font-size: 14px;
   color: rgba(134, 135, 139, 255);
   text-align: center;
@@ -580,7 +575,7 @@
 .professional-price__heading-name,
 .enterprice-price__heading-name {
   text-transform: capitalize;
-  font-family: "OpenSans-Bold";
+  font-family: 'OpenSans-Bold';
   font-size: 20px;
   color: white;
 }
@@ -609,7 +604,7 @@
 }
 
 .prof-price__desc {
-  font-family: "OpenSans-Semibold";
+  font-family: 'OpenSans-Semibold';
   font-style: italic;
   font-size: 14px;
   text-transform: capitalize;
@@ -621,13 +616,13 @@
 .enter-price {
   color: #f5f5f5;
   font-size: 36px;
-  font-family: "OpenSans-Bold";
+  font-family: 'OpenSans-Bold';
 }
 
 .basic-price__button,
 .enterprice-price__button {
   text-transform: capitalize;
-  font-family: "OpenSans-SemiBold";
+  font-family: 'OpenSans-SemiBold';
   color: rgba(255, 255, 255, 255);
   width: 330px;
   height: 60px;
@@ -640,7 +635,7 @@
 
 .professional-price__button {
   text-transform: capitalize;
-  font-family: "OpenSans-SemiBold";
+  font-family: 'OpenSans-SemiBold';
   color: rgba(255, 255, 255, 255);
   width: 330px;
   height: 40px;
@@ -691,7 +686,7 @@
 .customers__heading-title {
   color: rgba(33, 33, 33, 255);
   font-size: 36px;
-  font-family: "Raleway-Light";
+  font-family: 'Raleway-Light';
   text-transform: uppercase;
 }
 
@@ -702,7 +697,7 @@
 
 .customers__heading-desc {
   font-size: 14px;
-  font-family: "OpenSans";
+  font-family: 'OpenSans';
   color: rgba(134, 135, 139, 255);
 }
 
@@ -749,7 +744,7 @@
 .customers-reviews__john-text,
 .customers-reviews__susan-text {
   font-size: 14px;
-  font-family: "OpenSans";
+  font-family: 'OpenSans';
   color: rgba(134, 135, 139, 255);
   font-style: italic;
   margin-left: 10px;
@@ -775,7 +770,7 @@
 .customers__john-name,
 .customers__susan-name {
   font-size: 20px;
-  font-family: "OpenSans-Bold";
+  font-family: 'OpenSans-Bold';
   color: rgba(51, 51, 51, 255);
   text-transform: capitalize;
   margin-top: 10px;
@@ -786,7 +781,7 @@
 .customers__john-cfl,
 .customers__susan-cfl {
   text-transform: capitalize;
-  font-family: "OpenSans";
+  font-family: 'OpenSans';
   font-size: 14px;
   color: rgba(134, 135, 139, 255);
   margin-top: 10px;
@@ -797,7 +792,7 @@
   display: flex;
   width: auto;
   height: 320px;
-  background-image: url("../images/stylish-design__img.png");
+  background-image: url('../images/stylish-design__img.png');
   background-color: black;
   align-items: center;
   justify-content: center;
@@ -814,7 +809,7 @@
 
 .stylish-design__heading {
   font-size: 36px;
-  font-family: "Raleway-Light";
+  font-family: 'Raleway-Light';
   color: rgba(255, 255, 255, 255);
   text-transform: uppercase;
 }
@@ -826,7 +821,7 @@
 
 .stylish-design__desc {
   font-size: 16px;
-  font-family: "Raleway-Regular";
+  font-family: 'Raleway-Regular';
   color: rgba(255, 255, 255, 255);
   text-align: center;
 }
@@ -837,98 +832,90 @@
   background: transparent;
   border: 2px solid white;
   color: white;
-  font-family: "OpenSans-Semibold";
+  font-family: 'OpenSans-Semibold';
   font-size: 15px;
 }
 
-.contacts_page{
+.contacts_page {
   display: flex;
   width: auto;
   height: 615px;
-  
-   
 }
 
-.contacts-page__heading-page{
+.contacts-page__heading-page {
   display: flex;
   width: 1400px;
   height: 200px;
-  
+
   justify-content: center;
   align-items: flex-end;
 }
 
-.contacts-page__heading{
+.contacts-page__heading {
   display: flex;
   width: 360px;
   height: 110px;
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  
 }
 
-.contacts-page__title{
+.contacts-page__title {
   text-transform: uppercase;
   font-size: 36px;
-  font-family: "Raleway-Light";
+  font-family: 'Raleway-Light';
   color: rgba(33, 33, 33, 255);
-
 }
 
-.contacts-divider{
+.contacts-divider {
   width: 74px;
   border-bottom: 2px solid #ff8b38;
 }
 
-.contacts-desc{
-  font-family: "OpenSans";
+.contacts-desc {
+  font-family: 'OpenSans';
   font-size: 14px;
   color: rgba(134, 135, 139, 255);
   text-align: center;
 }
 
-
-. @media screen and (max-width: 768px) {
-}
-
 @font-face {
-  font-family: "OpenSans-Semibold";
-  src: url("../fonts/openSansSemibold.ttf") format("truetype");
+  font-family: 'OpenSans-Semibold';
+  src: url('../fonts/openSansSemibold.ttf') format('truetype');
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "Raleway-Light";
-  src: url("../fonts/Raleway-Light.ttf") format("truetype");
+  font-family: 'Raleway-Light';
+  src: url('../fonts/Raleway-Light.ttf') format('truetype');
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "Raleway-Regular";
-  src: url("../fonts/Raleway-Regular.ttf") format("truetype");
+  font-family: 'Raleway-Regular';
+  src: url('../fonts/Raleway-Regular.ttf') format('truetype');
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "OpenSans-Bold";
-  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+  font-family: 'OpenSans-Bold';
+  src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "OpenSans-ExtraBold";
-  src: url("../fonts/OpenSans-ExtraBold.ttf") format("truetype");
+  font-family: 'OpenSans-ExtraBold';
+  src: url('../fonts/OpenSans-ExtraBold.ttf') format('truetype');
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "OpenSans-SemiboldItalic";
-  src: url("../fonts/OpenSans-SemiboldItalic.ttf") format("truetype");
+  font-family: 'OpenSans-SemiboldItalic';
+  src: url('../fonts/OpenSans-SemiboldItalic.ttf') format('truetype');
   font-weight: normal;
 }
 @font-face {
-  font-family: "OpenSans";
-  src: url("../fonts/OpenSans.ttf") format("truetype");
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans.ttf') format('truetype');
   font-weight: normal;
 }
