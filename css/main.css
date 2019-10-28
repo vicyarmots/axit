@@ -171,7 +171,6 @@
   width: 1100px;
   height: 54px;
   justify-content: space-between;
- 
 }
 
 .social-name {
@@ -216,17 +215,16 @@
   background-position: -190px 0;
 }
 
-.pinterest-icon{
+.pinterest-icon {
   background-position: -280px 0;
 }
 
-.instagram-icon{
+.instagram-icon {
   background-position: -380px 0;
 }
 
 .other-social-icon {
   background-position: -488px 0;
-  
 }
 
 .connect-icon {
@@ -309,7 +307,7 @@
   color: rgba(134, 135, 139, 255);
 }
 
-.btn-download-2 {
+.features-download__button {
   text-transform: capitalize;
   background: #ff8b38;
   border: 1px solid #ff8b38;
@@ -904,8 +902,8 @@
 .contacts-page__main {
   display: flex;
   width: auto;
-  height: 510px;
-  background: #333333;
+  height: 250px;
+
   justify-content: center;
   align-items: center;
 }
@@ -913,8 +911,132 @@
 .contacts-page__main-content {
   display: flex;
   width: 1100px;
-  height: 245px;
+  height: 155px;
+
+  justify-content: space-between;
+}
+
+.contacts-form-inputs {
+  height: 155px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   background: white;
+}
+
+.contacts-form-inputs input {
+  width: 527px;
+  border: none;
+  border-bottom: 1px solid #d6d6d6;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  color: black;
+}
+
+.contacts-form-inputs,
+.contacts-message-inputs,
+input::placeholder {
+  color: #d6d6d6;
+}
+
+.contacts-message-inputs {
+  height: 155px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: white;
+}
+
+.contacts-message-inputs input {
+  width: 527px;
+  border: none;
+  border-bottom: 1px solid #d6d6d6;
+  padding-left: 10px;
+  padding-bottom: 137px;
+  font-size: 14px;
+  color: black;
+}
+
+.contacts-button {
+  align-self: center;
+}
+
+.contacts-message__button {
+  text-transform: capitalize;
+  background: #ff9b51;
+  border: 1px solid #ff9b51;
+  color: white;
+  font-family: "OpenSans-Semibold";
+  font-size: 15px;
+  width: 148px;
+  height: 46px;
+  border-radius: 3px;
+}
+
+.footer-wrapper{
+  display: flex;
+  width: inherit;
+  height: 80px;
+  background: black;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.footer-contacts{
+  background: black;
+  width: 317px;
+  height: 23px;
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: space-between;
+  width: 317px;
+  height: 23px;
+}
+
+.footer__icons li {
+  background-image: url(../images/footer-icons.png);
+  height: inherit;
+  width: 22px;
+}
+
+.footer-facebook-icon {
+  background-position: 0 0;
+}
+
+.footer-tweeter-icon {
+  background-position: -44px 0;
+}
+
+.footer-google-icon {
+  background-position: -95px 0;
+}
+
+.footer-pinterest-icon {
+  background-position: -141px 0;
+}
+
+.footer-instagram-icon {
+  background-position: -191px 0;
+}
+
+.footer-other-social-icon {
+  background-position: -245px 0;
+}
+
+.footer-connect-icon {
+  background-position: -295px 0;
+}
+
+.footer-axure-text {
+  font-size: 12px;
+  font-family: "OpenSans";
+  color: rgba(189, 189, 189, 255);
+
 }
 
 . @media screen and (max-width: 768px) {
