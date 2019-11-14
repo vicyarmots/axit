@@ -3,6 +3,7 @@
   height: 100vh;
   background-color: grey;
 }
+
 .header {
   display: flex;
   align-items: center;
@@ -12,6 +13,7 @@
   background-color: black;
   flex-wrap: wrap;
 }
+
 .nav {
   width: 450px;
   display: flex;
@@ -567,113 +569,116 @@
 .pricing-options__content {
   display: flex;
   height: 500px;
-  width: 1070px;
+  width: 1100px;
   background: #f5f5f5;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-.basic-price {
-  background: #333333;
-  width: 330px;
-  height: 450px;
-}
-
-.basic-price__heading,
-.professional-price__heading,
-.enterprice-price__heading {
+.basic-price__card {
   display: flex;
-  align-items: center;
-  background: #333333;
-  width: auto;
-  height: 60px;
-  justify-content: center;
+  flex-direction: column;
+  height: 465px;
+  width: 340px;
+  background: grey;
 }
 
-.basic-price__heading-name,
-.professional-price__heading-name,
-.enterprice-price__heading-name {
-  text-transform: capitalize;
-  font-family: "OpenSans-Bold";
+.is-current-pricing-card {
+  height: 500px;
+}
+
+.basic-price-middle__heading,
+.basic-price__heading {
+  width: 340px;
+  height: 59px;
+  line-height: 59px;
+  border-bottom: 1px solid white;
+  background: #333333;
+  text-align: center;
   font-size: 20px;
-  color: white;
-}
-
-.basic-price__info,
-.enterprice-price__info {
-  width: auto;
-  height: 156px;
-  background: #333333;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-}
-
-.professional-price__info {
-  width: auto;
-  height: 185px;
-  background: #333333;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-}
-
-.prof-price__desc {
-  font-family: "OpenSans-Semibold";
-  font-style: italic;
-  font-size: 14px;
-  text-transform: capitalize;
-  color: #d6d6d6;
-}
-
-.prof-price,
-.basic-pricee,
-.enter-price {
-  color: #f5f5f5;
-  font-size: 36px;
   font-family: "OpenSans-Bold";
+  color: rgba(255, 255, 255, 255);
+  text-transform: capitalize;
 }
 
-.basic-price__button,
-.enterprice-price__button {
-  text-transform: capitalize;
-  font-family: "OpenSans-SemiBold";
-  color: rgba(255, 255, 255, 255);
-  width: 330px;
-  height: 60px;
+.professional-price__win {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: auto;
+  height: 191px;
   background: #333333;
-  font-style: italic;
-  color: #d6d6d6;
-  text-decoration: none;
-  border-bottom: 1px solid #ff8b38;
 }
 
-.professional-price__button {
+.enterprice-price__win,
+.basic-price__win {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+  height: 151px;
+  background: #333333;
+  border-bottom: 3px solid #ff8b38;
+}
+
+.price-info {
+  font-family: "OpenSans-Bold";
+  color: #7a7a7a;
   text-transform: capitalize;
-  font-family: "OpenSans-SemiBold";
-  color: rgba(255, 255, 255, 255);
-  width: 330px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.price__offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
   height: 40px;
   background: #ff8b38;
-  border: 1px solid #ff8b38;
-  color: white;
 }
 
-.professional-price {
-  width: 330px;
-  height: 480px;
-  background: black;
+.price-text__offer {
+  text-transform: uppercase;
+  font-family: "OpenSans-Bold";
+  font-size: 14px;
+  color: rgba(255, 255, 255, 255);
 }
 
-.enterprice-price {
-  background: #333333;
-  width: 330px;
-  height: 450px;
+.price-offers{
+  display: flex;
+  width: 340px;
+  height: 248px;
+  background: #f5f5f5;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+.offers {
+  display: flex;
+  background: #ffffff;
+  width: 340px;
+  height: 40px;
+  border-bottom: 1px solid none;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  font-family: "OpenSans";
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgba(134, 135, 139, 255);
+
+
+  
+  
+}
+
+
+
 
 .customers-reviews__page {
   display: flex;
@@ -975,7 +980,7 @@ input::placeholder {
   border-radius: 3px;
 }
 
-.footer-wrapper{
+.footer-wrapper {
   display: flex;
   width: inherit;
   height: 80px;
@@ -985,7 +990,7 @@ input::placeholder {
   flex-direction: column;
 }
 
-.footer-contacts{
+.footer-contacts {
   background: black;
   width: 317px;
   height: 23px;
@@ -1036,7 +1041,6 @@ input::placeholder {
   font-size: 12px;
   font-family: "OpenSans";
   color: rgba(189, 189, 189, 255);
-
 }
 
 . @media screen and (max-width: 768px) {
