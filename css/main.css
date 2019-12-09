@@ -647,7 +647,7 @@
   color: rgba(255, 255, 255, 255);
 }
 
-.price-offers{
+.price-offers {
   display: flex;
   width: 340px;
   height: 248px;
@@ -671,14 +671,7 @@
   font-size: 14px;
   text-transform: uppercase;
   color: rgba(134, 135, 139, 255);
-
-
-  
-  
 }
-
-
-
 
 .customers-reviews__page {
   display: flex;
@@ -947,21 +940,20 @@ input::placeholder {
 }
 
 .contacts-message-inputs {
-  height: 155px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   background: white;
 }
 
-.contacts-message-inputs input {
+.contacts-message-inputs {
   width: 527px;
   border: none;
   border-bottom: 1px solid #d6d6d6;
-  padding-left: 10px;
-  padding-bottom: 137px;
+
   font-size: 14px;
-  color: black;
+  color: grey;
+  resize: none;
 }
 
 .contacts-button {
@@ -1012,7 +1004,6 @@ input::placeholder {
 .footer-facebook-icon {
   background-position: 0 0;
 }
-
 .footer-tweeter-icon {
   background-position: -44px 0;
 }
